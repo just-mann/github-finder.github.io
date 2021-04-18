@@ -70,10 +70,10 @@ $(() => {
                                     <a href=${user.html_url} target='_blank' class="btn btn-success btn-block my-2">View Profile</a>
                                 </div>
                                 <div class="col-md-9">
-                                    <span class="label label-default bg-secondary">Public Repos: ${user.public_repos}</span>
-                                    <span class="label label-default bg-info text-light p-2">Public Gists: ${user.public_gists}</span>
-                                    <span class="label label-success bg-success text-light">Followers: ${user.followers}</span>
-                                    <span class="label label-info bg-success text-light">Following: ${user.following}</span>
+                                    <span class="label label-default bg-">Public Repos: ${user.public_repos}</span>
+                                    <span class="badge badge-pill badge-primary">Public Gists: ${user.public_gists}</span>
+                                    <span class="label label-success">Followers: ${user.followers}</span>
+                                    <span class="label label-info">Following: ${user.following}</span>
                                     <br/><br/>
                                     <ul class="list-group">
                                         <li class="list-group-item">${user.company}</li>
