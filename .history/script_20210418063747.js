@@ -44,7 +44,7 @@ $(() => {
                                     <strong>${repo.name}</strong>: ${repo.description}
                                 </div>
                                 <div class="col-md-3">
-                                    <span class="badge badge-primary">Forks: ${repo.fork_count}</span>
+                                    <span class="label label-default">Forks: ${repo.fork_count}</span>
                                     <span class="label label-primary">Watchers: ${repo.watchers_count}</span>
                                     <span class="label label-success">Stars: ${repo.stargazers_count}</span>
                                 </div>
@@ -67,12 +67,12 @@ $(() => {
                         <div class="row">
                                 <div class="col-md-3">
                                     <img src=${user.avatar_url} alt="userImg" class="thumbnail avatar"/>
-                                    <a href=${user.html_url} target='_blank' class="btn btn-success btn-block my-2">View Profile</a>
+                                    <a target='_blank' class="btn btn-primary btn-block my-2">View Profile</a>
                                 </div>
                                 <div class="col-md-9">
-                                    <span class="label label-default">Public Repos: ${user.public_repos}</span>
-                                    <span class="label label-primary">Public Gists: ${user.public_gists}</span>
-                                    <span class="label label-success">Followers: ${user.followers}</span>
+                                    <span class="list-group-item label label-default">Public Repos: ${user.public_repos}</span>
+                                    <span class="list-group-item label label-primary">Public Gists: ${user.public_gists}</span>
+                                    <span class="list-group-item label label-success">Followers: ${user.followers}</span>
                                     <span class="label label-info">Following: ${user.following}</span>
                                     <br/><br/>
                                     <ul class="list-group">
