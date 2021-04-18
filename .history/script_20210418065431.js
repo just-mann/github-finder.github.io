@@ -71,7 +71,7 @@ $(() => {
                                 </div>
                                 <div class="col-md-9">
                                     <span class="label label-default">Public Repos: ${user.public_repos}</span>
-                                    <span class="badge badge-pill badge-primary">Public Gists: ${user.public_gists}</span>
+                                    <span class="badge badge-pill b-primary">Public Gists: ${user.public_gists}</span>
                                     <span class="label label-success">Followers: ${user.followers}</span>
                                     <span class="label label-info">Following: ${user.following}</span>
                                     <br/><br/>
@@ -79,7 +79,7 @@ $(() => {
                                         <li class="list-group-item">${user.company}</li>
                                         <li class="list-group-item">${user.blog}</li>
                                         <li class="list-group-item">${user.location}</li>
-                                        <li class="list-group-item">Member Since: ${user.created_at}</li>
+                                        <li class="list-group-item">${user.created_at}</li>
                                     </ul>
                                 </div>
                         </div>

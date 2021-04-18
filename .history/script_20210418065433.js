@@ -79,7 +79,7 @@ $(() => {
                                         <li class="list-group-item">${user.company}</li>
                                         <li class="list-group-item">${user.blog}</li>
                                         <li class="list-group-item">${user.location}</li>
-                                        <li class="list-group-item">Member Since: ${user.created_at}</li>
+                                        <li class="list-group-item">${user.created_at}</li>
                                     </ul>
                                 </div>
                         </div>
