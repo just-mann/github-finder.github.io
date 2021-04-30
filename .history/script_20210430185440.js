@@ -72,8 +72,8 @@ $(() => {
                                 <div class="col-md-9 row">
                                     <span class="col label label-default bg-dark text-light p-1 px-2 my-1 col-md-3">Public Repos: ${user.public_repos}</span>
                                     <span class="col label label-default bg-danger text-light p-1 px-2 my-1 col-md-3">Public Gists: ${user.public_gists}</span>
-                                    <span class="col label label-success bg-success text-light p-1 px-2 my-1 col-md-3">Followers: ${user.followers}</span>
-                                    <span class="col label label-info bg-info text-light p-1 px-2 my-1 col-md-3">Following: ${user.following}</span>
+                                    <span class="col label label-success bg-success text-light p-1 px-2 my-1 col-md">Followers: ${user.followers}</span>
+                                    <span class="col label label-info bg-info text-light p-1 px-2 my-1">Following: ${user.following}</span>
                                     <br/><br/>
                                     <ul class="list-group">
                                         <li class="list-group-item">${user.company}</li>

@@ -69,11 +69,11 @@ $(() => {
                                     <img src=${user.avatar_url} alt="userImg" class="thumbnail avatar"/>
                                     <a href=${user.html_url} target='_blank' class="btn btn-success btn-block my-2">View Profile</a>
                                 </div>
-                                <div class="col-md-9 row">
-                                    <span class="col label label-default bg-dark text-light p-1 px-2 my-1 col-md-3">Public Repos: ${user.public_repos}</span>
-                                    <span class="col label label-default bg-danger text-light p-1 px-2 my-1 col-md-3">Public Gists: ${user.public_gists}</span>
-                                    <span class="col label label-success bg-success text-light p-1 px-2 my-1 col-md-3">Followers: ${user.followers}</span>
-                                    <span class="col label label-info bg-info text-light p-1 px-2 my-1 col-md-3">Following: ${user.following}</span>
+                                <div class="col-md-9">
+                                    <span class="label label-default bg-dark text-light p-1 px-2 m">Public Repos: ${user.public_repos}</span>
+                                    <span class="label label-default bg-danger text-light p-1 px-2">Public Gists: ${user.public_gists}</span>
+                                    <span class="label label-success bg-success text-light p-1 px-2">Followers: ${user.followers}</span>
+                                    <span class="label label-info bg-info text-light p-1 px-2">Following: ${user.following}</span>
                                     <br/><br/>
                                     <ul class="list-group">
                                         <li class="list-group-item">${user.company}</li>
