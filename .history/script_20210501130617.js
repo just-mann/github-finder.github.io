@@ -49,7 +49,7 @@ $(() => {
                                     <span class="label label-success">Stars: ${repo.stargazers_count}</span>
                                 </div>
                                 <div class="col-md-2">
-                                    <a href=${repo.html_url} target='_blank' class=" font-weight-bold btn btn-info">Repo Page</a>
+                                    <a href=${repo.html_url} target='_blank' class="btn btn-info">Repo Page</a>
                                 </div>
                             </div>
                         </div>
@@ -70,10 +70,10 @@ $(() => {
                                     <a href=${user.html_url} target='_blank' class="btn btn-success btn-block my-2">View Profile</a>
                                 </div>
                                 <div class="col-md-9">
-                                    <span class="label label-default bg-dark text-light font-weight-bold p-2 my-2">Public Repos: ${user.public_repos}</span>
-                                    <span class="label label-default bg-danger text-light font-weight-bold p-2 my-2">Public Gists: ${user.public_gists}</span>
-                                    <span class="label label-success bg-success text-light font-weight-bold p-2 my-2">Followers: ${user.followers}</span>
-                                    <span class="label label-info bg-warning text-dark font-weight-bold p-2 my-2">Following: ${user.following}</span>
+                                    <span class="label label-default bg-dark text-light font= p-1 px-2 my-2">Public Repos: ${user.public_repos}</span>
+                                    <span class="label label-default bg-danger text-light p-1 px-2 my-2">Public Gists: ${user.public_gists}</span>
+                                    <span class="label label-success bg-success text-light p-1 px-2 my-2">Followers: ${user.followers}</span>
+                                    <span class="label label-info bg-warning text-dark p-1 px-2 my-2">Following: ${user.following}</span>
                                     <br/><br/>
                                     <ul class="list-group">
                                         <li class="list-group-item">${user.company}</li>

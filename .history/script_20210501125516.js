@@ -49,7 +49,7 @@ $(() => {
                                     <span class="label label-success">Stars: ${repo.stargazers_count}</span>
                                 </div>
                                 <div class="col-md-2">
-                                    <a href=${repo.html_url} target='_blank' class=" font-weight-bold btn btn-info">Repo Page</a>
+                                    <a href=${repo.html_url} target='_blank' class="btn btn-secondary">Repo Page</a>
                                 </div>
                             </div>
                         </div>
@@ -69,11 +69,11 @@ $(() => {
                                     <img src=${user.avatar_url} alt="userImg" class="thumbnail avatar"/>
                                     <a href=${user.html_url} target='_blank' class="btn btn-success btn-block my-2">View Profile</a>
                                 </div>
-                                <div class="col-md-9">
-                                    <span class="label label-default bg-dark text-light font-weight-bold p-2 my-2">Public Repos: ${user.public_repos}</span>
-                                    <span class="label label-default bg-danger text-light font-weight-bold p-2 my-2">Public Gists: ${user.public_gists}</span>
-                                    <span class="label label-success bg-success text-light font-weight-bold p-2 my-2">Followers: ${user.followers}</span>
-                                    <span class="label label-info bg-warning text-dark font-weight-bold p-2 my-2">Following: ${user.following}</span>
+                                <div class="col-md-9 row">
+                                    <span class="col-sm-10 col-md-12 col-lg-9 label label-default bg-dark text-light p-1 px-2 my-1">Public Repos: ${user.public_repos}</span>
+                                    <span class="col-sm-10 col-md-9 col-lg-9 label label-default bg-danger text-light p-1 px-2 my-1">Public Gists: ${user.public_gists}</span>
+                                    <span class="col-sm-10 col-md-9 col-lg-9 label label-success bg-success text-light p-1 px-2 my-1">Followers: ${user.followers}</span>
+                                    <span class="col-sm-10 col-md-9 col-lg-9 label label-info bg-info text-light p-1 px-2 my-1 col">Following: ${user.following}</span>
                                     <br/><br/>
                                     <ul class="list-group">
                                         <li class="list-group-item">${user.company}</li>
